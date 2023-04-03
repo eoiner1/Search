@@ -1,0 +1,45 @@
+#links {
+    text-align: right;
+    position: relative;
+    margin-right: 100px;
+}
+
+.linkButtons {
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    border:0ch;
+    background-color: rgba(245, 245, 245, 0.626);
+}
+
+.linkButtons:hover {
+    background-color: rgba(128, 128, 128, 0.393);
+}
+
+#searchBar {
+    text-align: center;
+}
+
+#search {
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: rgba(245, 245, 245, 0.626);
+}
+
+#search:hover {
+    background-color: rgba(128, 128, 128, 0.393);
+}
+
+#query {
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+.header-image {
+    background-image: url("Images/GoogleLogo.png");
+    height: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+  }
