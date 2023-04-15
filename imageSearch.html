@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Image Search</title>
+        <title>Search</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-            <p>Test</p>
+    <div id="links">
+        <button class="linkButtons" onclick="window.location.href='index.html'">Google Search</button>
+        <button class="linkButtons" onclick="window.location.href='advancedSearch.html'">Advanced Search</button>
+    </div>
+    <div class="googleImagesLogo"></div>
+        <form id="searchBar" action="https://www.google.com/search">
+            <input id="query" type="text" name="q"><br>
+            <input id="search" type="submit" value="Google Search">
+            <input name="tbm" value="isch" type="hidden">
+        </form>
     </body>
 </html>

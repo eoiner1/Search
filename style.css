@@ -4,7 +4,7 @@
     margin-right: 100px;
 }
 
-a.linkButtons {
+.linkButtons {
     font-size: 20px;
     margin: 20px;
     border-radius: 12px;
@@ -36,9 +36,17 @@ a.linkButtons {
     border-radius: 6px;
 }
 
-.header-image {
+.googleLogo {
     background-image: url("Images/GoogleLogo.png");
     height: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+  }
+
+  .googleImagesLogo {
+    background-image: url("Images/GoogleImageLogo.png");
+    height: 140px;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
