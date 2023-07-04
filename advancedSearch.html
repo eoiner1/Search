@@ -7,11 +7,24 @@
     <body>
     <div id="links">
         <button class="linkButtons" onclick="window.location.href='index.html'">Google Search</button>
-        <button class="linkButtons" onclick="window.location.href='advancedSearch.html'">Advanced Search</button>
+        <button class="linkButtons" onclick="window.location.href='advancedSearch.html'">Image Search</button>
+    </div>
+    <div>
+        <h1>Advanced Search</h1>
+        <p>Find pages with...</p>
     </div>
     <div class="header-image"></div>
-        <form id="searchBar" action="https://www.google.com/search">
-            <input id="query" type="text" name="q"><br>
+        <form id="Advanced Search" action="https://www.google.com/search">
+            <label>all these words:</label>
+            <input id="query" type="text" name="allWords"><br>
+            <label>this exact word or phrase:</label>
+            <input id="query" type="text" name="exactWords"><br>
+            <label>any of these words:</label>
+            <input id="query" type="text" name="anyWords"><br>
+            <label>none of these words:</label>
+            <input id="query" type="text" name="noWords"><br>
+            <label>numbers ranging from:</label>
+            <input id="query" type="text" name="numbers"><br>
             <input id="search" type="submit" value="Google Search">
         </form>
     </body>
